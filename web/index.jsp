@@ -18,6 +18,7 @@
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="img/favicon.ico">
 </head>
 
 <body>
@@ -26,6 +27,7 @@
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
+      
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -45,13 +47,13 @@
                 </nav>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">      
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">TV <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="#">Planos</a>
+                                <a href="planos-tv.jsp">Pacotes</a>
                             </li>
                             <li>
                                 <a href="grade-de-canais.jsp">Grade de Canais</a>
@@ -67,25 +69,11 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Internet <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
                             <li>
-                                <a href="full-width.html">Full Width Page</a>
+                                <a href="planos-net.jsp">Internet</a>
                             </li>
-                            <li>
-                                <a href="sidebar.html">Sidebar Page</a>
-                            </li>
-                            <li>
-                                <a href="faq.html">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="404.html">404</a>
-                            </li>
-                            <li>
-                                <a href="pricing.html">Pricing Table</a>
-                            </li>
-                        </ul>
+                    <li>
+                        <a href="combos.jsp">Combos</a>
                     </li>
                     <li>
                         <a href="contato.jsp">Contato</a>
@@ -102,12 +90,7 @@
 
     <!-- Header Carousel -->
     <header id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
+ 
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
@@ -116,26 +99,9 @@
                 <div class="carousel-caption">
                 </div>
             </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('img/sat-slide2.png');"></div>
-                <div class="carousel-caption">
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 3</h2>
-                </div>
-            </div>
         </div>
 
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
+
     </header>
 
     <!-- Page Content -->
@@ -145,84 +111,35 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">
-                    Welcome to Modern Business
+                    Conheça nossos planos
                 </h1>
             </div>
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
+                        <h4><i class="fa fa-fw fa-check"></i> TV</h4>
                     </div>
                     <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
+                        <p>O melhor conteúdo para toda a família com os últimos lançamentos em filmes, series, programação infantil, notícias e muito esporte. Conheça nossos pacotes e assine já. Um deles foi feito para você!</p>
+                        <a href="planos-tv.jsp" class="btn btn-default">Saiba Mais</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-gift"></i> Free &amp; Open Source</h4>
+                        <h4><i class="fa fa-fw fa-check"></i> Combos TV + Internet</h4>
                     </div>
                     <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-compass"></i> Easy to Use</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
+                        <p>Mantenha-se conectado. Escolha um combo TV + Internet e tenha a qualidade da internet SAT em sua casa. Sempre muitas novidades em dezenas de canais de filmes, 
+                            esportes, documentários, conteúdo infantil, musica e muito, muito mais.</p>
+                        <a href="planos-net.jsp" class="btn btn-default">Saiba Mais  </a>
                     </div>
                 </div>
             </div>
         </div>
         <!-- /.row -->
-
-        <!-- Portfolio Section -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header">Portfolio Heading</h2>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- Features Section -->
+        <!-- Features Section 
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="page-header">Modern Business Features</h2>
@@ -244,6 +161,7 @@
                 <img class="img-responsive" src="http://placehold.it/700x450" alt="">
             </div>
         </div>
+        -->
         <!-- /.row -->
 
         <hr>
@@ -252,10 +170,10 @@
         <div class="well">
             <div class="row">
                 <div class="col-md-8">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+                    <p>Teste a velocidade da sua <strong>conexão banda larga.</strong></p>
                 </div>
                 <div class="col-md-4">
-                    <a class="btn btn-lg btn-default btn-block" href="#">Call to Action</a>
+                    <a class="btn btn-lg btn-default btn-block" href="http://www.minhaconexao.com.br/"><strong>Teste agora</strong></a>
                 </div>
             </div>
         </div>
@@ -265,8 +183,11 @@
         <!-- Footer -->
         <footer>
             <div class="row">
+                <small>*Valores de serviços de internet disponíveis para assinantes de um pacote de TV.<br>
+                *Os valores dos serviços contidos em toda a website são válidos apenas em alguns bairros.
+                    Entre em contato e verifique a disponibilidade no seu bairro.</small>
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <br><p>Copyright &copy; Your Website 2014</p>
                 </div>
             </div>
         </footer>

@@ -1,3 +1,9 @@
+<%-- 
+    Document   : planos-net
+    Created on : 08/07/2016, 01:34:25
+    Author     : Thiago
+--%>
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -10,7 +16,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Sat - Sobre</title>
+    <title>Sat - Planos Internet</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -67,7 +73,7 @@
                                 <a href="grade-de-canais.jsp">Grade de Canais</a>
                             </li>
                             <li>
-                                <a href="#">Guia de Programação</a>
+                                <a href="guia-de-programação.jsp">Guia de Programação</a>
                             </li>
                             <li>
                                 <a href="canais-opcionais.jsp">Conteúdo Opcional</a>
@@ -102,38 +108,106 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Sobre
-                    <small>Conheça mais sobre nossa empresa</small>
+                <h1 class="page-header">Internet de alta velocidade
+                    <small></small>
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="index.jsp">Inicio</a>
                     </li>
-                    <li class="active">Sobre</li>
+                    <li class="active">Planos</li>
                 </ol>
             </div>
         </div>
         <!-- /.row -->
 
-        <!-- Intro Content -->
+        <!-- Content Row -->
         <div class="row">
-            <div class="col-md-6">
-                <img class="img-responsive" src="img/teste.png" alt="SAT">
+            <div class="col-md-4">
+                <div class="panel panel-primary text-center">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">1 MEGA</h3>
+                    </div>
+                    <div class="panel-body">
+                        <small>À partir de*</small>
+                        <span class="price"><sup>R$</sup>79<sup>,00</sup></span>
+                        <span class="period">por mês</span>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">Velocidade de Download -<strong> 1 Mbps</strong></li>
+                        <li class="list-group-item">Velocidade de Upload -<strong> 300 Kbps</strong></li>
+                        <li class="list-group-item"><strong>Modem incluso</strong></li>
+                        <li class="list-group-item"><strong>Uso ilimitado</strong></li>
+                        <li class="list-group-item"><strong>Wi-Fi - Não incluso</strong></li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-md-6">
-                <h2>Sobre a SAT</h2>
-                <p>A Sat Tv a Cabo, iniciou suas atividades em 1997.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
+                        <div class="col-md-4">
+                <div class="panel panel-primary text-center">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">2 MEGA</h3>
+                    </div>
+                    <div class="panel-body">
+                        <small>À partir de*</small>
+                        <span class="price"><sup>R$</sup>103<sup>,00</sup></span>
+                        <span class="period">por mês</span>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">Velocidade de Download -<strong> 2 Mbps</strong></li>
+                        <li class="list-group-item">Velocidade de Upload -<strong> 300 Kbps</strong></li>
+                        <li class="list-group-item"><strong>Modem incluso</strong></li>
+                        <li class="list-group-item"><strong>Uso ilimitado</strong></li>
+                        <li class="list-group-item"><strong>Wi-Fi - Não incluso</strong></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-primary text-center">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">4 MEGA</h3>
+                    </div>
+                    <div class="panel-body">
+                      <small>À partir de*</small>
+                        <span class="price"><sup>R$</sup>125<sup>,00</sup></span>
+                        <span class="period">por mês</span>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">Velocidade de Download -<strong> 4 Mbps</strong> </li>
+                        <li class="list-group-item">Velocidade de Upload -<strong> 600 Kbps</strong> </li>
+                        <li class="list-group-item"><strong>Modem incluso</strong></li>
+                        <li class="list-group-item"><strong>Uso ilimitado</strong></li>
+                        <li class="list-group-item"><strong>Wi-Fi - Não incluso</strong></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-primary text-center">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">8 MEGA</h3>
+                    </div>
+                    <div class="panel-body">
+                        <small>À partir de*</small>
+                        <span class="price"><sup>R$</sup>145<sup>,00</sup></span>
+                        <span class="period">por mês</span>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">Velocidade de Download -<strong> 8 Mbps</strong></li>
+                        <li class="list-group-item">Velocidade de Upload -<strong> 600 Kbps</strong></li>
+                        <li class="list-group-item"><strong>Modem incluso</strong></li>
+                        <li class="list-group-item"><strong>Uso ilimitado</strong></li>
+                        <li class="list-group-item"><strong>Wi-Fi - Não incluso</strong></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <!-- /.row -->
 
-         <hr>
+        <hr>
 
         <!-- Footer -->
         <footer>
             <div class="row">
-                <small>*Valores de serviços de internet disponíveis para assinantes de um pacote de TV.<br>
+                                <small>*Valores de serviços de internet disponíveis para assinantes de um pacote de TV.<br>
                 *Os valores dos serviços contidos em toda a website são válidos apenas em alguns bairros.
                     Entre em contato e verifique a disponibilidade no seu bairro.</small>
                 <div class="col-lg-12">
@@ -154,4 +228,3 @@
 </body>
 
 </html>
-

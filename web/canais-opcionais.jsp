@@ -16,7 +16,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SAT - Canais Opcionais</title>
+    <title>Sat - Canais Opcionais</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -33,7 +33,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <link rel="shortcut icon" href="img/favicon.ico">
 </head>
 
 <body>
@@ -67,7 +67,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">TV <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="#">Planos</a>
+                                <a href="planos-tv.jsp">Pacotes</a>
                             </li>
                             <li>
                                 <a href="grade-de-canais.jsp">Grade de Canais</a>
@@ -83,25 +83,11 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Internet <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="full-width.html">Full Width Page</a>
+                          <li>
+                                <a href="planos-net.jsp">Internet</a>
                             </li>
-                            <li>
-                                <a href="sidebar.html">Sidebar Page</a>
-                            </li>
-                            <li>
-                                <a href="faq.html">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="404.html">404</a>
-                            </li>
-                            <li>
-                                <a href="pricing.html">Pricing Table</a>
-                            </li>
-                        </ul>
+                    <li>
+                        <a href="combos.jsp">Combos</a>
                     </li>
                     <li>
                         <a href="contato.jsp">Contato</a>
@@ -137,20 +123,20 @@
         <!-- Projects Row -->
         <div class="row">
             <div class="col-md-6 img-portfolio">
-                <a href="#">
-                    <img class="img-responsive img-hover" src="img/adulto.jpg" alt="SexPrive">
-                </a>
-                <h3>
-                    <a href="#">Adulto</a>
+
+                    <img class="img-responsive" src="img/adulto.jpg" alt="SexPrive">
+
+                <h3 style='color: cornflowerblue'>
+                    Adulto
                 </h3>
                 <p>No SEX PRIVE você encontra a maior variedade de produções do cinema adulto, brasileiras e internacionais, com a qualidade das principais produtoras do mundo e com o conteúdo exclusivo do mais  importante selo nacional.</p>
             </div>
             <div class="col-md-6 img-portfolio">
-                <a href="#">
-                    <img class="img-responsive img-hover" src="img/pfc.png" alt="Premiere">
-                </a>
-                <h3>
-                    <a href="#">Premiere Futebol Clube</a>
+
+                    <img class="img-responsive" src="img/pfc.png" alt="Premiere">
+
+                <h3 style='color: cornflowerblue'>
+                    Premiere Futebol Clube  
                 </h3>
                 <p>Assinando o Premiere Futebol Clube você tem acesso a maior cobertura do Brasileirão (Séries A e B) e também os seis Campeonatos Estaduais (Carioca, Catarinense, Gaúcho, Mineiro, Paulista e Paranaense).</p>
             </div>
@@ -163,8 +149,11 @@
         <!-- Footer -->
         <footer>
             <div class="row">
+                <small>*Valores de serviços de internet disponíveis para assinantes de um pacote de TV.<br>
+                *Os valores dos serviços contidos em toda a website são válidos apenas em alguns bairros.
+                    Entre em contato e verifique a disponibilidade no seu bairro.</small>
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <br><p>Copyright &copy; Your Website 2014</p>
                 </div>
             </div>
         </footer>

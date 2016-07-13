@@ -33,7 +33,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <link rel="shortcut icon" href="img/favicon.ico">
 </head>
 
 <body>
@@ -67,7 +67,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">TV <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="#">Planos</a>
+                                <a href="planos-tv.jsp">Pacotes</a>
                             </li>
                             <li>
                                 <a href="grade-de-canais.jsp">Grade de Canais</a>
@@ -83,25 +83,11 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Internet <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="full-width.html">Full Width Page</a>
+                          <li>
+                                <a href="planos-net.jsp">Internet</a>
                             </li>
-                            <li>
-                                <a href="sidebar.html">Sidebar Page</a>
-                            </li>
-                            <li>
-                                <a href="faq.html">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="404.html">404</a>
-                            </li>
-                            <li>
-                                <a href="pricing.html">Pricing Table</a>
-                            </li>
-                        </ul>
+                    <li>
+                        <a href="combos.jsp">Combos</a>
                     </li>
                     <li>
                         <a href="contato.jsp">Contato</a>
@@ -563,6 +549,9 @@
         <footer>
             <div style="position:absolute;margin-left:0px;margin-top:760px;width:1150px;height:auto;z-index:1">
                         <hr>
+                    <small>*Valores de serviços de internet disponíveis para assinantes de um pacote de TV.<br>
+                *Os valores dos serviços contidos em toda a website são válidos apenas em alguns bairros.
+                    Entre em contato e verifique a disponibilidade no seu bairro.</small>
                 <div class="col-lg-12">
                     <br>
                     <br>
